@@ -36,7 +36,6 @@ app.post('/users', (request, response) => {
   users.push(user)
   return response.status(201).json(user)
 
-
 });
 
 //search user todos
